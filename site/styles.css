@@ -1,0 +1,96 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+        display: flex;
+	justify-content: space-between;
+	height: 60px;
+}
+
+.n{
+    display: flex;
+	align-items: center;
+}
+
+.sidenav a {
+  
+  text-decoration: none;
+  font-size: 13px;
+  color: #818181;
+  display: block;
+  margin-left: 15px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+
+.main img{
+  position: absolute; 
+}
+
+.main {
+  margin-left: 140px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+   width: 100%; 
+  margin-bottom: 10px; 
+}
+
+
+.f{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: .1px solid #B0BEC5;
+	margin: 10px;
+	height: 40px; 
+}
+
+
+.h{
+  padding: 5px; 
+  min-width: 40px; 
+  height: 30px;
+}
+
+.i{
+   width: 33%; 
+            padding: 10px; 
+            text-align: center; 
+            border:0;
+            opacity: 0.3;
+}
+
+.r{
+    
+    width: 90px;
+	height: 60px;
+	background-color: #1e272c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: .1px solid #B0BEC5;
+    
+}
+
+.s{
+  margin-left: 48px;
+  margin-top: 25px;
+  height: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+
+
+
+
+  
+}
