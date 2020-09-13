@@ -9,11 +9,12 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 130px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
+
   background-color: #283043;
   overflow-x: hidden;
   padding-top: 20px;
@@ -25,34 +26,69 @@ body {
   font-size: 13px;
   color: #818181;
   display: block;
-  margin-left: 27px;
+  margin-left: 15px;
 }
 
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
+.main img{
+  position: absolute; 
+}
+
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
+  margin-left: 160px; 
+  font-size: 28px; 
   padding: 0px 10px;
+   width: 100%; 
+  margin-bottom: 10px; 
+}
+.f{
+  padding: 5px; 
+  min-width: 40px; 
+}
+
+.g{
+  width: 18%; 
+            padding: 10px; 
+            text-align: center; 
+            border-left: 0;
+            border-top: 0;
+            border-bottom: 0;
+            opacity: 0.3;
+}
+.h{
+  padding: 5px; 
+  min-width: 40px; 
+  height: 30px;
+}
+
+.i{
+   width: 33%; 
+            padding: 10px; 
+            text-align: center; 
+            border:0;
+            opacity: 0.3;
 }
 
 .r{
     
-    margin-left: 45px;
-    height: 50px;
+    margin-left: 40px;
+    height: 40px;
     
 }
 
 .s{
-  margin-left: 60px;
+  margin-left: 48px;
   margin-top: 25px;
   height: 20px;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
+
+
   
 }
 </style>
@@ -85,19 +121,23 @@ body {
 
   <a href="#product"><span style="padding-left: 17px">Product</span></a>
 
-  <img src="signups.jpg" style="margin-left: 55px;margin-top: 25px;">
+  <img src="signups.jpg" style="margin-left: 43px;margin-top: 25px;">
 
   <a href="#signups"><span style="padding-left: 14px">Signups</span></a>
+
+  <img src="knowledge.jpg" style="margin-left: 40px;margin-top: 25px;">
+
+  <a href="#knowledge"><span style="padding-left: 6px">Knowledge</span></a>
 </div>
 
 <div class="main">
-  <h2>Sidebar</h2>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
+  
+  <img src="searchUser.jpg" class="f">
+  <input type="search" name="searchuser" placeholder="Search Org or Org User" class="g">
+
+  <img src="search.jpg" class="h">
+  <input type="search" name="searchuser" placeholder="Search Customer Request/Feature Story/Issue/Dev Request" class="i">
+  <img src="notifications.jpg"> <span style="margin-left: 50px;"> Notifications </span>
 </div>
    
 </body>
